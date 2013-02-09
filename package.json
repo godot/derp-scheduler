@@ -4,6 +4,6 @@
   "dependencies": {
     "coffee-script": "1.4.0",
     "connect": "1.9.2",
-    "mongodb": "1.2.x"
+    "mongodb": "1.1.x"
   }
 }
