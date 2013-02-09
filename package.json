@@ -1,5 +1,5 @@
 {
-  "name": "My-CoffeeScript-App-on-Heroku",
+  "name": "scheduller",
   "version": "0.0.1",
   "dependencies": {
     "coffee-script": "1.4.0"
