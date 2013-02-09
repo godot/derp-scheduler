@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "coffee-script": "1.4.0",
-    "connect": "2.7.x",
+    "connect": "1.9.2",
     "mongodb": "1.2.x"
   }
 }
