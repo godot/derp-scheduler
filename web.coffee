@@ -2,6 +2,5 @@ http = require 'http'
 
 http.createServer (req, res) ->
   res.writeHead 200
-  res.write 'it is gonna work'
-  res.end 'Hello, Word!'
+  res.end 'works like a charm!'
 .listen process.env.PORT || 4000
