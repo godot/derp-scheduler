@@ -6,6 +6,6 @@
         "connect": "1.9.2",
         "mongodb": "1.1.x",
         "mongoskin": "0.4.x",
-        "express": "3.x.x"
+        "express": "3.0.x"
     }
 }
