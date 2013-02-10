@@ -4,8 +4,12 @@
     "dependencies": {
         "coffee-script": "1.4.0",
         "connect": "1.9.2",
-        "mongodb": "1.1.x",
-        "mongoskin": "0.4.x",
+        "mongodb": "1.x.x",
+        "mongoskin": "0.x.x",
         "express": "3.0.x"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm": "1.2.x"
     }
 }
