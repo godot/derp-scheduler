@@ -1,8 +1,14 @@
-http = require 'http'
+ServiceProviderDAO = require './lib/connector'
+express            = require 'express'
 
-console.log process.env.DB
+app = express()
 
-http.createServer (req, res) ->
-  res.writeHead 200
-  res.end 'works like a charm!'
-.listen process.env.PORT || 4000
+serviceProvider = new ServiceProviderDAO()
+
+display = (err, data) ->
+  throw err if err
+  console.log data
+
+app.get('/serviceProviders', serviceProvider.all)
+
+app.listen(process.env.PORT)
